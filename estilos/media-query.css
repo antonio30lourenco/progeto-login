@@ -15,5 +15,29 @@
         float: right;
         width: 70%;
     }
+
+    body {
+        background-image: linear-gradient(to top, green, blue);
+    }
 }
 
+@media screen and (min-width: 992px) {
+    #login {
+        width: 950px;
+    }
+
+    body {
+        background-image: linear-gradient(to top, green, blue);
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+}
