@@ -18,16 +18,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e pode fazer as configurações no seu ambiente,</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div class="campo">
-                        <label for="ilogin">Login</label>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30">
-                    </div>
-                    <div class="senha">
-                        <label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required maxlength="30" minlength="8">
-                    </div>
+                    <section class="campoesenha">
+                        <div class="campo">
+                            <label for="ilogin">Login</label>
+                            <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30">
+                        </div>
+                        <div class="campo">
+                            <label for="isenha">Senha</label>
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required maxlength="30" minlength="8">
+                        </div>
+                    </section>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Recuperar Senha</a>
+                    <a href="esqueci.html" class="botao">Recuperar Senha</a>
                 </form>
             </div>
         </section>

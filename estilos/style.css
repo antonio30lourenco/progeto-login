@@ -59,3 +59,50 @@ p {
     display: block;
 }
 
+input[type=submit] {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 7px, solid, green;
+    padding-top: 5px;
+    margin-top: 5px;
+    bor
+}
+
+.botao:hover {
+    text-decoration: underline;
+}
+
+.campo {
+    padding-bottom: 10px;
+    background-color: green;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
