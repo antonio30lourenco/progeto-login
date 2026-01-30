@@ -32,12 +32,13 @@ main {
 
 p {
     font-size: 0.8em;
+    margin: 20px 0px;
 }
 
 #login {
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -58,6 +59,17 @@ p {
     padding: 10px;
     display: block;
 }
+
+input {
+    /*background-color: rgb(147, 147, 187);*/
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 50px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
 
 input[type=submit] {
     display: block;
@@ -82,10 +94,10 @@ input[type=submit]:hover {
     width: 100%;
     height: 40px;
     text-decoration: none;
-    border-radius: 7px, solid, green;
+    border: 2px, solid, green;
     padding-top: 5px;
     margin-top: 5px;
-    bor
+    border-radius: 10px;
 }
 
 .botao:hover {
@@ -99,7 +111,8 @@ input[type=submit]:hover {
     display: block;
     height: 40px;
     border-radius: 5px;
-    margin: 5px 0px;
+    margin: 8px 0px;
+    padding: 4px;
 }
 
 label {

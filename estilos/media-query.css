@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
         width: 80vw;
+        height: 340px;
     }
 
     #imagem {
@@ -24,6 +25,7 @@
 @media screen and (min-width: 992px) {
     #login {
         width: 950px;
+        height: 360px;
     }
 
     body {
@@ -35,7 +37,7 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     #imagem {
